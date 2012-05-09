@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SXViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UIWebView *webView;
 
 @end

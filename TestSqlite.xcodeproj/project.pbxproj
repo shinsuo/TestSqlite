@@ -15,6 +15,8 @@
 		B9011378155A34F7002A5702 /* SXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9011377155A34F7002A5702 /* SXAppDelegate.m */; };
 		B901137B155A34F7002A5702 /* SXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B901137A155A34F7002A5702 /* SXViewController.m */; };
 		B901137E155A34F7002A5702 /* SXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B901137C155A34F7002A5702 /* SXViewController.xib */; };
+		B9011389155A35F3002A5702 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9011388155A35F3002A5702 /* libsqlite3.dylib */; };
+		B901139B155A84B6002A5702 /* display_ad.htm in Resources */ = {isa = PBXBuildFile; fileRef = B901139A155A84B6002A5702 /* display_ad.htm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		B9011379155A34F7002A5702 /* SXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXViewController.h; sourceTree = "<group>"; };
 		B901137A155A34F7002A5702 /* SXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXViewController.m; sourceTree = "<group>"; };
 		B901137D155A34F7002A5702 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SXViewController.xib; sourceTree = "<group>"; };
+		B9011388155A35F3002A5702 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B901139A155A84B6002A5702 /* display_ad.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = display_ad.htm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9011389155A35F3002A5702 /* libsqlite3.dylib in Frameworks */,
 				B9011368155A34F7002A5702 /* UIKit.framework in Frameworks */,
 				B901136A155A34F7002A5702 /* Foundation.framework in Frameworks */,
 				B901136C155A34F7002A5702 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +72,7 @@
 		B9011366155A34F7002A5702 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B9011388155A35F3002A5702 /* libsqlite3.dylib */,
 				B9011367155A34F7002A5702 /* UIKit.framework */,
 				B9011369155A34F7002A5702 /* Foundation.framework */,
 				B901136B155A34F7002A5702 /* CoreGraphics.framework */,
@@ -82,6 +88,7 @@
 				B9011379155A34F7002A5702 /* SXViewController.h */,
 				B901137A155A34F7002A5702 /* SXViewController.m */,
 				B901137C155A34F7002A5702 /* SXViewController.xib */,
+				B901139A155A84B6002A5702 /* display_ad.htm */,
 				B901136E155A34F7002A5702 /* Supporting Files */,
 			);
 			path = TestSqlite;
@@ -152,6 +159,7 @@
 			files = (
 				B9011372155A34F7002A5702 /* InfoPlist.strings in Resources */,
 				B901137E155A34F7002A5702 /* SXViewController.xib in Resources */,
+				B901139B155A84B6002A5702 /* display_ad.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +282,7 @@
 				B9011383155A34F7002A5702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
